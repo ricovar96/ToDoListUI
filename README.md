@@ -16,6 +16,7 @@ This link opens the Angular-based user interface, where you can create, view, up
 <b>Features</b>
 
 
+
 ✅ Add new tasks with title, description, due date, importance, and urgency
 
 📋 View a list of all tasks
@@ -29,6 +30,7 @@ This link opens the Angular-based user interface, where you can create, view, up
 🔄 Real-time UI updates on changes
 
 🌐 Connected to a REST API built in ASP.NET Core
+
 
 
 ⚙️ Tech Stack
