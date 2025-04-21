@@ -43,10 +43,11 @@ API Testing: Swagger (Swashbuckle)
 
 
 <b>How to Run Locally</b>
-Clone the repository:
+
+1.Clone the repository:
 git clone https://github.com/ricovar96/ToDoListUI.git
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 cd ToDoListUI
 
 3. Install dependencies:
