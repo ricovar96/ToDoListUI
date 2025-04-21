@@ -9,7 +9,7 @@ https://todolistui-c5hvgsh9dqdjhfbu.canadacentral-01.azurewebsites.net/
 This link opens the Angular-based user interface, where you can create, view, update, and delete tasks in real time. The app communicates with a RESTful API hosted on Azure, providing a seamless full-stack experience.
 
 
-Features
+<b>Features</b>
 ✅ Add new tasks with title, description, due date, importance, and urgency
 📋 View a list of all tasks
 ✏️ Edit existing tasks
