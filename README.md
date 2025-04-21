@@ -2,33 +2,38 @@
 
 ![image](https://github.com/user-attachments/assets/5b32fed5-6fe7-4f15-8087-d2910f1fd18d)
 
-🚀 How to Use:
-
+🚀 How to Use
 You can access the To-Do List App from any computer or mobile device using the following link:
-https://todolistui-c5hvgsh9dqdjhfbu.canadacentral-01.azurewebsites.net/
+🔗 Live To-Do List UI
+
 This link opens the Angular-based user interface, where you can create, view, update, and delete tasks in real time. The app communicates with a RESTful API hosted on Azure, providing a seamless full-stack experience.
 
-
-<b>Features</b>
+✨ Features
 ✅ Add new tasks with title, description, due date, importance, and urgency
-📋 View a list of all tasks
-✏️ Edit existing tasks
-🗑️ Delete tasks
-🔍 Filter tasks by urgency and importance
-🔄 Real-time UI updates on changes
-🌐 Connected to a REST API built in ASP.NET Core
 
+📋 View a list of all tasks
+
+✏️ Edit existing tasks
+
+🗑️ Delete tasks
+
+🔍 Filter tasks by urgency and importance
+
+🔄 Real-time UI updates on changes
+
+🌐 Connected to a REST API built in ASP.NET Core
 
 ⚙️ Tech Stack
 Frontend: Angular
+
 Backend: ASP.NET Core Web API (hosted on Azure)
+
 Database: Azure SQL Database
+
 API Testing: Swagger (Swashbuckle)
 
-
 📦 How to Run Locally
-
-1. Clone the repository:
+Clone the repository:
 git clone https://github.com/ricovar96/ToDoListUI.git
 
 3. Navigate to the project directory:
