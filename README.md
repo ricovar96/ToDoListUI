@@ -8,6 +8,7 @@ You can access the To-Do List App from any computer or mobile device using the f
 
 This link opens the Angular-based user interface, where you can create, view, update, and delete tasks in real time. The app communicates with a RESTful API hosted on Azure, providing a seamless full-stack experience.
 
+
 ✨ Features
 ✅ Add new tasks with title, description, due date, importance, and urgency
 
@@ -23,6 +24,7 @@ This link opens the Angular-based user interface, where you can create, view, up
 
 🌐 Connected to a REST API built in ASP.NET Core
 
+
 ⚙️ Tech Stack
 Frontend: Angular
 
@@ -31,6 +33,7 @@ Backend: ASP.NET Core Web API (hosted on Azure)
 Database: Azure SQL Database
 
 API Testing: Swagger (Swashbuckle)
+
 
 📦 How to Run Locally
 Clone the repository:
