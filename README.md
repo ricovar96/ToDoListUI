@@ -2,7 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/5b32fed5-6fe7-4f15-8087-d2910f1fd18d)
 
+
 <b>How to Use</b>
+
 You can access the To-Do List App from any computer or mobile device using the following link:
 🔗 Live To-Do List UI
 
