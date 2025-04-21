@@ -8,6 +8,7 @@ You can access the To-Do List App from any computer or mobile device using the f
 https://todolistui-c5hvgsh9dqdjhfbu.canadacentral-01.azurewebsites.net/
 This link opens the Angular-based user interface, where you can create, view, update, and delete tasks in real time. The app communicates with a RESTful API hosted on Azure, providing a seamless full-stack experience.
 
+
 Features
 ✅ Add new tasks with title, description, due date, importance, and urgency
 📋 View a list of all tasks
@@ -17,11 +18,13 @@ Features
 🔄 Real-time UI updates on changes
 🌐 Connected to a REST API built in ASP.NET Core
 
+
 ⚙️ Tech Stack
 Frontend: Angular
 Backend: ASP.NET Core Web API (hosted on Azure)
 Database: Azure SQL Database
 API Testing: Swagger (Swashbuckle)
+
 
 📦 How to Run Locally
 
@@ -43,6 +46,7 @@ http://localhost:4200
 
 🧠 About the Project
 This project was designed as a practical demo of how to build a modern, cloud-connected web application using Angular, ASP.NET Core, and Azure. It showcases full-stack integration and is a great foundation for learning or extending into production-ready tools.
+
 
 👨‍💻 Author
 Fabian Rico 
