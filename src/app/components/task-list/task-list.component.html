@@ -1,0 +1,62 @@
+
+
+<div class="todo-container">
+  <div class="todo-title-container">
+    <h2 class="todo-title">📝 Your To Do List</h2>
+    <div class="filter-container">
+      <mat-form-field>
+        <mat-label>Filter and Order</mat-label>
+        <mat-select [(value)]="selectedFilter" (selectionChange)="applyFilter()">
+          <mat-option value="all">All</mat-option>
+          <mat-option value="priority">By Priority</mat-option>
+          <mat-option value="dateAsc">Date Ascending</mat-option>
+          <mat-option value="urgent">Urgent</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+
+
+<div class="task-container">
+  <mat-card *ngFor="let task of tasks" class="task-card" [ngClass]="{ 'urgent': task.isUrgent }">
+    
+    <mat-card-header>
+      <mat-card-title>{{ task.taskName }}</mat-card-title>
+      <mat-card-subtitle>{{ task.endDate | date:'mediumDate' }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p class="mb-2">{{ task.taskDescription }}</p>
+      <span class="priority-badge"
+            [ngClass]="{
+              'low': task.levelImportance === 1,
+              'medium': task.levelImportance === 2,
+              'high': task.levelImportance === 3
+            }">
+        Priority: {{ getImportanceLabel(task.levelImportance) }}
+      </span>
+    </mat-card-content>
+
+    <mat-card-actions class="action-buttons">
+      <button mat-raised-button color="accent" class="custom-button" (click)="openEditDialog(task)">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-raised-button color="warn" class="custom-button" (click)="deleteTask(task.id)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </mat-card-actions>
+
+  </mat-card>
+</div>
+
+
+<button
+  mat-fab
+  color="primary"
+  class="fab-button"
+  matTooltip="Añadir nueva tarea"
+  (click)="openCreateDialog()"
+>
+  <mat-icon>add</mat-icon>
+</button>
+

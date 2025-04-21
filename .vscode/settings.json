@@ -1,0 +1,9 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e4cf900e-c9bf-420b-958d-38cc0bae2a82/resourceGroups/ToDoListAPI/providers/Microsoft.Web/sites/test4rico",
+    "appService.deploySubpath": "dist/to-do-list",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.showBuildDuringDeployPrompt": false
+}

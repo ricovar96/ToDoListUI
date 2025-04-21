@@ -1,0 +1,17 @@
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  

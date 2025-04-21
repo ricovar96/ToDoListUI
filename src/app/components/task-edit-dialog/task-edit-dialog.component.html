@@ -1,0 +1,52 @@
+<div class="modal-header">
+    <h1 class="modal-title mx-auto"><b>Edit Task</b></h1>
+    <button type="button" class="btn-close" aria-label="Close" (click)="cancel()"></button>
+  </div>
+  
+  <div class="modal-body">
+    <form>
+
+      <div class="mb-3">
+        <label>Title</label>
+        <input type="text" class="form-control" [(ngModel)]="task.taskName" name="taskName">
+      </div>
+  
+
+      <div class="mb-3">
+        <label>Description</label>
+        <textarea class="form-control" [(ngModel)]="task.taskDescription" name="taskDescription"></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label for="endDate">Expired Date</label>
+        <input type="date" class="form-control" id="endDate" [(ngModel)]="task.endDate" name="endDate" required>
+      </div>
+  
+
+      <div class="mb-3">
+        <label>Priority</label>
+        <select class="form-control" [(ngModel)]="task.levelImportance" name="levelImportance">
+          <option *ngFor="let level of levels" [value]="level">
+            {{ level === 1 ? 'Low' : level === 2 ? 'Medium' : 'High' }}
+          </option>
+        </select>
+      </div>
+
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="isUrgent" [(ngModel)]="task.isUrgent" name="isUrgent">
+        <label class="form-check-label" for="isUrgent">Is it Urgent?</label>
+      </div>
+    </form>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="cancel()">Cancel</button>
+    <button 
+      type="button" 
+      class="btn btn-primary" 
+      (click)="save()" 
+      [disabled]="!task.taskName || !task.taskDescription || !task.endDate || !task.levelImportance">
+      Save
+    </button>
+  </div>
+  

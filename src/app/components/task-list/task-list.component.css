@@ -1,0 +1,155 @@
+.task-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .task-card {
+    width: 300px;
+    transition: transform 0.2s;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .task-card.urgent {
+    border-left: 6px solid red;
+  }
+
+  .task-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  
+  .task-card {
+    transition: transform 0.2s ease;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .task-avatar {
+    background: transparent;
+  }
+  
+  .urgent {
+    border-left: 5px solid #dc3545;
+  }
+  
+
+  .task-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .task-card {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .task-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card.urgent {
+    border-left: 4px solid #dc3545;
+  }
+
+  .task-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-bottom: 80px;
+  }
+  
+  .task-card {
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .task-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card.urgent {
+    border-left: 4px solid #dc3545;
+  }
+  
+  .fab-button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+  }
+  
+  mat-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+  mat-card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  mat-icon {
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+
+  .priority-badge {
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .priority-badge.low {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .priority-badge.medium {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .priority-badge.high {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+
+  .todo-title-container {
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+  }
+  
+  .todo-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3f51b5; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .filter-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
