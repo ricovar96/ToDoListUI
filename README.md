@@ -3,7 +3,9 @@
 ![image](https://github.com/user-attachments/assets/5b32fed5-6fe7-4f15-8087-d2910f1fd18d)
 
 
+
 <b>How to Use</b>
+
 
 You can access the To-Do List App from any computer or mobile device using the following link:
 🔗 Live To-Do List UI
@@ -12,6 +14,7 @@ This link opens the Angular-based user interface, where you can create, view, up
 
 
 <b>Features</b>
+
 
 ✅ Add new tasks with title, description, due date, importance, and urgency
 
@@ -31,6 +34,7 @@ This link opens the Angular-based user interface, where you can create, view, up
 ⚙️ Tech Stack
 Frontend: Angular
 
+
 Backend: ASP.NET Core Web API (hosted on Azure)
 
 Database: Azure SQL Database
@@ -38,7 +42,7 @@ Database: Azure SQL Database
 API Testing: Swagger (Swashbuckle)
 
 
-📦 How to Run Locally
+<b>How to Run Locally</b>
 Clone the repository:
 git clone https://github.com/ricovar96/ToDoListUI.git
 
@@ -55,8 +59,10 @@ ng serve
 http://localhost:4200
 
 
+
 🧠 About the Project
 This project was designed as a practical demo of how to build a modern, cloud-connected web application using Angular, ASP.NET Core, and Azure. It showcases full-stack integration and is a great foundation for learning or extending into production-ready tools.
+
 
 
 👨‍💻 Author
