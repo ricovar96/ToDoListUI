@@ -1,27 +1,47 @@
-# ToDoList
+📝 To-Do List UI:
+![image](https://github.com/user-attachments/assets/5b32fed5-6fe7-4f15-8087-d2910f1fd18d)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+🚀 How to Use
+You can access the To-Do List App from any computer or mobile device using the following link:
+https://todolistui-c5hvgsh9dqdjhfbu.canadacentral-01.azurewebsites.net/
+This link opens the Angular-based user interface, where you can create, view, update, and delete tasks in real time. The app communicates with a RESTful API hosted on Azure, providing a seamless full-stack experience.
 
-## Development server
+Features
+✅ Add new tasks with title, description, due date, importance, and urgency
+📋 View a list of all tasks
+✏️ Edit existing tasks
+🗑️ Delete tasks
+🔍 Filter tasks by urgency and importance
+🔄 Real-time UI updates on changes
+🌐 Connected to a REST API built in ASP.NET Core
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+⚙️ Tech Stack
+Frontend: Angular
+Backend: ASP.NET Core Web API (hosted on Azure)
+Database: Azure SQL Database
+API Testing: Swagger (Swashbuckle)
 
-## Code scaffolding
+📦 How to Run Locally
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository:
+git clone https://github.com/ricovar96/ToDoListUI.git
 
-## Build
+3. Navigate to the project directory:
+cd ToDoListUI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Install dependencies:
+npm install
 
-## Running unit tests
+4. Run the development server:
+ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Open your browser and go to:
+http://localhost:4200
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+🧠 About the Project
+This project was designed as a practical demo of how to build a modern, cloud-connected web application using Angular, ASP.NET Core, and Azure. It showcases full-stack integration and is a great foundation for learning or extending into production-ready tools.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+👨‍💻 Author
+Fabian Rico 
+https://www.linkedin.com/in/fabianrico/
