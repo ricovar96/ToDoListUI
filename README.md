@@ -1,4 +1,4 @@
-📝 To-Do List UI:
+📝 <b>To-Do List UI</b>
 
 ![image](https://github.com/user-attachments/assets/5b32fed5-6fe7-4f15-8087-d2910f1fd18d)
 
